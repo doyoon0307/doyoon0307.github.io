@@ -1,2 +1,3 @@
 # doyoon0307.github.io
-homepage test
+Web Programming Lecture Assignment1
+about Making Homepage
