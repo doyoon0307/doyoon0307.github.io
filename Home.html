@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Home </title>
+    <style>
+    body {
+        background-image: url('image/sky.jpg');
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: sans-serif;
+    }
+    #header {
+		background-color: #87CEEB;
+		width: 1510px;
+		height: 90px;
+		text-align: center;
+		font-size: 45pt;
+		font-weight: bold;
+		color: white;
+		border-radius: 10px;
+		margin: 5px;
+	}
+    ul {
+		background-color: #FFF0F5;
+		width: 1510px;
+		border-radius: 10px;
+		margin: 5px;
+		padding: 0;
+		overflow: hidden;
+		list-style-type: none;
+	}
+	li { float: left; padding:0 10px; }
+	li a {
+	    display: block;
+		color: #000000;
+		padding: 8px;
+		text-align: center;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+	li a:hover {
+		background-color: #FFC0CB;
+		color: white;
+	}
+    #content {
+        width: 1510px;
+        height: 520px;
+        background-color: #F5F5F5; 
+        float: center;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    #footer {
+    	width: 1510px;
+    	height: 75px;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        clear: both;
+        margin: 5px;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    #circle {
+        width: 90%;
+        height: 90%;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 900%;
+        font-weight: bold;
+        color: white;
+    }
+    #circle:hover {
+    	text-decoration: underline;
+    }
+    #ddochi_anim {
+  		margin:0 auto;
+	}
+	#ddochi_anim img {
+		border-radius:100%;
+		width:250px;
+		height:350px;
+  		position:absolute;
+  		top:220px;
+  		left:100px;
+  		-webkit-transition: opacity 1s ease-in-out;
+  		-moz-transition: opacity 1s ease-in-out;
+  		-o-transition: opacity 1s ease-in-out;
+  		transition: opacity 1s ease-in-out;
+	}
+	#ddochi_anim img.top:hover {
+		opacity:0;
+	}
+	a:link { color:#808000F; }
+	a:visited { color:#CD853F; }
+	a:hover { font-size:14pt;  }
+    </style>
+    </head>
+
+    <body>
+    <div id="header"> Yoon's Homepage </div>
+    <ul>
+		<li style="background-color: #FFC0CB;"><a href="Home.html">Home</a></li>
+		<li><a href="William.html">William</a></li>
+		<li><a href="Music.html">Music</a></li>
+		<li><a href="Movie.html">Movie</a></li>
+	</ul>
+    <div id="content">
+    <table style="width:25%; height:100%; float:left;"></table>
+    <table style="width:27%; height:100%; float:left;"
+       <tr>
+           <td> <h1 style="font-size: 40pt; font-weight:bold; color:#696969; margin:5%;"> Hello!</h1>
+                <p style="font-size: 20pt; font-weight:bold; color:#696969; margin:7%;">About me..?
+                <div id="ddochi_anim">
+  				<img class="bottom" src="image/ddochi1.jpg" alt="또치1" title="또치1" />
+  				<img class="top" src="image/ddochi2.jpg" alt="또치2" title="또치2" /> </div>
+                <p style="font-size: 14pt; color:#696969; margin:7%; line-height:180%;">
+                Name : 윤도윤 <br> Nickname : 또치 <br> Birthday : 1998.3.7 <br> School : SKKU <br> Department : Software </p>
+
+           </td>
+       </tr> 
+    </table>
+
+	<table style="width:40%; height:100%; float:left;">
+		<tr>
+			<td style="width:30%;"><div id="circle" style="background-color:#D2553D;">It's me</div>
+			</td>
+			<td style="width:5%;"></td>
+			<td style="width:50%; line-height:200%; font-size:12pt; font-family:sans-serif; font-weight:bold; color:#D2553D;">
+			Hometown : Daegu <br> Family : father, mother, brother <br> Blood type : B <br> Height : 167cm 
+			</td>
+			<td style="width:15%;"></td>
+		</tr>
+		<tr>
+			<td style="width:30%;"><div id="circle" style="background-color:#8FBC8F;">My work</div>
+			</td>
+			<td style="width:5%;"></td>
+			<td style="width:50%; line-height:200%; font-size:12pt; font-family:sans-serif; font-weight:bold; color:#8FBC8F;">
+			Now, 3rd grade (3-2) <br> Programming Language : C, C++, Python, Java, HTML/CSS, Javascript
+			</td>
+			<td style="width:15%"></td>
+		</tr>
+		<tr>
+			<td style="width:30%;"><div id="circle" style="background-color:#DBCE8F;">My interests</div>
+			</td>
+			<td style="width:5%;"></td>
+			<td style="width:50%; line-height:200%; font-size:12pt; font-family:sans-serif; font-weight:bold; color:#DBCE8F;">
+			like : <a href="William.html">William,</a> <a href="Music.html">Music,</a> <a href="Movie.html">Movie,</a> Reading detective stories, Swimming, Drum, Macaron, Spicy food, Noodle
+			</td>
+			<td style="width:15%;"></td>
+		</tr>
+	</table>
+	</div>
+    <div id="footer">
+        <p> © copyright 2019 by 윤도윤 </p>
+        <p> phone : 010-3699-2591 &nbsp | &nbsp
+        e-mail : a01036992591@gmail.com </p>
+    </div>
+    </body>
+</html>
