@@ -3,6 +3,11 @@
     <head>
     <title> About Homepage </title>
     <style>
+    table, th, td {
+    	<!--border: 1px solid black; -->
+    	border-spacing: 10px;
+    	margin: 0 auto;
+    }
     body {
         background-image: url('image/sky.jpg');
         height: 100%;
@@ -45,7 +50,7 @@
 	}
     #content {
         width: 99%;
-        height: 530px;
+        height: auto;
         background-color: #F5F5F5; 
         float: center;
         border-radius: 10px;
@@ -74,12 +79,17 @@
 		<li style="background-color: #FFC0CB;"><a href="About.html">About Homepage</a><li>
 	</ul>
     <div id="content">
-    <br>
+    <table>
+    	<tr><td>
+    	<br><br><br>
 		<p style="font-size:12pt; font-weight:bold; color:#008080; margin:0 auto; text-align:center;"> Did you enjoy my Homepage?
 		<br>Is it good or not?<br><br></p>
 		<p style="font-size:12pt; font-weight:bold; color:#008080; margin:0 auto; text-align:center; text-decoration:underline;">
 		If you have better ideas about my homepage, please give me your opinion.</p>
 		<br>
+		</td></tr>
+		
+		<tr><td>
 		<form>
             <fieldset style="width:500px; margin:0 auto; border:2px solid #F0E68C; font-size:11pt; font-weight:bold; color:#808080;">
             <legend style="font-size:12pt; font-weight:bold; color:#808000;">&nbsp Select Not good Category &nbsp</legend>
@@ -98,17 +108,28 @@
         	<br>
             <fieldset style="width:500px; margin:0 auto; border:2px solid #F0E68C; font-size:11pt; font-weight:bold; color:#808080;">
             <legend style="font-size:12pt; font-weight:bold; color:#808000;">&nbsp Comment &nbsp</legend>
-            <textarea name="comment" rows="5" cols="50"></textarea>
+            <textarea name="comment" rows="5" cols="65"></textarea>
             </fieldset>
+            <br>
+            <table><tr><td>
             <input type="submit" value="Enter" style="width:80px; height:25px; border:0px;
-            border-radius:10pt; background-color:#B2D235; color:white; font-weight:bold; font-size:12pt;
-            position:absolute; top:560px; left:680px;" />
+            border-radius:10pt; background-color:#B2D235; color:white; font-weight:bold; font-size:12pt;" />
+            </td>
+            <td style="width:10px;"></td>
+            <td>
             <input type="reset" value="Reset" style="width:80px; height:25px; border:0px;
-            border-radius:10pt; background-color:#B2D235; color:white; font-weight:bold; font-size:12pt;
-            position:absolute; top:560px; left:780px;" />
+            border-radius:10pt; background-color:#B2D235; color:white; font-weight:bold; font-size:12pt;" />
+            </td></tr></table>
         </form>
-        <br><br><br>
+        </td></tr>
+
+		<tr><td>
+		<br>
 		<p style="font-size:15pt; font-weight:bold; color:red; margin:0 auto; margin-top:20px; text-align:center;">♡Thank you♡</p>
+		<br>
+		</td></tr>
+    </table>
+    <br>
     </div>
     <div id="footer">
         <p> © copyright 2019 by 윤도윤 </p>

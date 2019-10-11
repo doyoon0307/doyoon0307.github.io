@@ -3,6 +3,10 @@
     <head>
     <title> Home </title>
     <style>
+    table, th, td {
+    	<!-- border: 1px solid black; -->
+    	margin: 0 auto;
+    }
     body {
         background-image: url('image/sky.jpg');
         height: 100%;
@@ -45,7 +49,7 @@
 	}
     #content {
         width: 99%;
-        height: 530px;
+        height: auto;
         background-color: #F5F5F5; 
         float: center;
         border-radius: 10px;
@@ -63,11 +67,12 @@
         font-weight: bold;
     }
     #circle {
-        width: 90%;
-        height: 90%;
+        width: 160px;
+        height: 160px;
+        margin: 0 auto;
         border-radius: 50%;
         text-align: center;
-        line-height: 900%;
+        line-height: 160px;
         font-weight: bold;
         color: white;
     }
@@ -80,10 +85,10 @@
 	#ddochi_anim img {
 		border-radius:100%;
 		width:250px;
-		height:350px;
+		height:400px;
   		position:absolute;
-  		top:220px;
-  		left:100px;
+  		top:250px;
+  		left:90px;
   		-webkit-transition: opacity 1s ease-in-out;
   		-moz-transition: opacity 1s ease-in-out;
   		-o-transition: opacity 1s ease-in-out;
@@ -105,8 +110,10 @@
 		<li><a href="About.html">About Homepage</a><li>
 	</ul>
     <div id="content">
-    <table style="width:25%; height:100%; float:left;"></table>
-    <table style="width:27%; height:100%; float:left;"
+    <br><br><br>
+    <table style="margin-left:400px;">
+    <tr><td>
+    <table style="width:350px;">
        <tr>
            <td> <h1 style="font-size: 40pt; font-weight:bold; color:#696969; margin:5%;"> Hello!</h1>
                 <p style="font-size: 20pt; font-weight:bold; color:#696969; margin:7%;">About me..?
@@ -119,36 +126,40 @@
            </td>
        </tr> 
     </table>
-
-	<table style="width:40%; height:100%; float:left;">
+    </td>
+	
+	<td>
+	<table>
 		<tr>
-			<td style="width:30%;"><div id="circle" style="background-color:#D2553D;">It's me</div>
+			<td style="width:170px;"><div id="circle" style="background-color:#D2553D;">It's me</div>
 			</td>
-			<td style="width:5%;"></td>
-			<td style="width:50%; line-height:200%; font-size:12pt; font-family:sans-serif; font-weight:bold; color:#D2553D;">
+			<td style="width:10px;"></td>
+			<td style="width:350px; line-height:200%; font-size:12pt; font-family:sans-serif; font-weight:bold; color:#D2553D;">
 			Hometown : Daegu <br> Family : father, mother, brother <br> Blood type : B <br> Height : 167cm 
 			</td>
-			<td style="width:15%;"></td>
 		</tr>
+		<tr><td style="height:10px;"></td></tr>
 		<tr>
-			<td style="width:30%;"><div id="circle" style="background-color:#8FBC8F;">My work</div>
+			<td style="width:170px;"><div id="circle" style="background-color:#8FBC8F;">My work</div>
 			</td>
-			<td style="width:5%;"></td>
-			<td style="width:50%; line-height:200%; font-size:12pt; font-family:sans-serif; font-weight:bold; color:#8FBC8F;">
+			<td style="width:10px;"></td>
+			<td style="width:350px; line-height:200%; font-size:12pt; font-family:sans-serif; font-weight:bold; color:#8FBC8F;">
 			Now, 3rd grade (3-2) <br> Programming Language : C, C++, Python, Java, HTML/CSS, Javascript
 			</td>
-			<td style="width:15%"></td>
 		</tr>
+		<tr><td style="height:10px;"></td></tr>
 		<tr>
-			<td style="width:30%;"><div id="circle" style="background-color:#DBCE8F;">My interests</div>
+			<td style="width:170px;"><div id="circle" style="background-color:#DBCE8F;">My interests</div>
 			</td>
-			<td style="width:5%;"></td>
-			<td style="width:50%; line-height:200%; font-size:12pt; font-family:sans-serif; font-weight:bold; color:#DBCE8F;">
+			<td style="width:10px;"></td>
+			<td style="width:350px; line-height:200%; font-size:12pt; font-family:sans-serif; font-weight:bold; color:#DBCE8F;">
 			like : William, Music, Movie, Reading detective stories, Swimming, Drum, Macaron, Spicy food, Noodle
 			</td>
-			<td style="width:15%;"></td>
 		</tr>
 	</table>
+	</td>
+	</table>
+	<br><br><br>
 	</div>
     <div id="footer">
         <p> © copyright 2019 by 윤도윤 </p>
